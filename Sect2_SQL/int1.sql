@@ -21,7 +21,10 @@ also useful - ROUND
 
 -- SELECT ROUND(SUM(salary),2) FROM employees;
 
-SELECT department_id, ROUND(AVG(salary), 0) avg_salary
+-- SELECT MIN(salary) FROM employees;
+
+SELECT department_id depID, ROUND(AVG(salary), 0) avg_salary
     FROM employees
     GROUP BY department_id
     ORDER BY AVG(salary) DESC;
+
