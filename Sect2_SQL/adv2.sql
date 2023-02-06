@@ -27,6 +27,3 @@ SELECT e.department_id depID,
 
 -- SELECT * FROM salary_report WHERE avg_salary > 9000
 
-
-
-
